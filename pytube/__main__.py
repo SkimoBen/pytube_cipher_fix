@@ -9,14 +9,14 @@ smaller peripheral modules and functions.
 import logging
 from typing import Any, Callable, Dict, List, Optional
 
-import pytube
-import pytube.exceptions as exceptions
-from pytube import extract, request
-from pytube import Stream, StreamQuery
-from pytube.helpers import install_proxy
-from pytube.innertube import InnerTube
-from pytube.metadata import YouTubeMetadata
-from pytube.monostate import Monostate
+import pytube_fix
+import pytube_fix.exceptions as exceptions
+from pytube_fix import extract, request
+from pytube_fix import Stream, StreamQuery
+from pytube_fix.helpers import install_proxy
+from pytube_fix.innertube import InnerTube
+from pytube_fix.metadata import YouTubeMetadata
+from pytube_fix.monostate import Monostate
 
 logger = logging.getLogger(__name__)
 
