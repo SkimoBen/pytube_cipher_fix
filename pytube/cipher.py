@@ -11,6 +11,7 @@ This module is responsible for (1) finding and extracting those "transform
 functions" (2) maps them to Python equivalents and (3) taking the ciphered
 signature and decoding it.
 
+#this is the adjusted version
 """
 import logging
 import re
